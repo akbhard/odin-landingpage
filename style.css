@@ -43,6 +43,8 @@ button {
     padding: 10px;
     margin-top: 10px;
     align-self: flex-start;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .image {
@@ -80,17 +82,47 @@ button {
     justify-content: center;
 }
 
+.square {
+    margin: 20px;
+    width: 165px;
+}
+
 .square a {
     display: flex;
     border: 3px solid #3882F6;
-    padding: 50px;
-    margin: 25px;
-    width: 50px;
-    height: 60px;
+    border-radius: 20px;
+    width: 90px;
+    height: 100px;
 }
 
 .text {
     padding-top: 5px;
-    margin: 5px;
-    
+    margin-right: 10px;
+    word-wrap: normal;
+}
+
+.rowfour {
+    display:flex;
+    text-align: center;
+    height: 400px;
+    background-color:#E5E7EB;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 75px;
+}
+
+.rowfour p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    padding: 200px 400px;
+    text-align: left;
+}
+
+span {
+    padding-top: 2000px;
+    padding-left: 500px;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
 }
