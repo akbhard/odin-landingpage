@@ -1,0 +1,96 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0px;
+    font-family: "roboto"
+}
+
+.rowone {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 125px;
+}
+
+.links a {
+    padding: 5px;
+}
+
+.rowtwo {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1F2937;
+    color: white;
+    padding: 55px 125px;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    color:#E5E7EB;
+    background-color: #3882F6;
+    padding: 10px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.image {
+    border:1px solid  #63666c;
+    display: flex;
+    align-items: center;
+    padding: 100px 100px;
+    margin-right: 100px;
+    background-color: #63666c ;
+
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.rowthree {
+    display: flex;
+    flex-direction: column;
+}
+
+.random {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.squarecollection {
+    display: flex;
+    justify-content: center;
+}
+
+.square a {
+    display: flex;
+    border: 3px solid #3882F6;
+    padding: 50px;
+    margin: 25px;
+    width: 50px;
+    height: 60px;
+}
+
+.text {
+    padding-top: 5px;
+    margin: 5px;
+    
+}
